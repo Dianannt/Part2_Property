@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Attribute selector</title>
+	<style type="text/css">
+		a[target=kuning] {
+			background-color: yellow;
+		}
+		.kamu[target=merah]{
+			background-color: red;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<p>Link dengan target="kuning" background-nya berwarna kuning : </p>
+
+	<a href="https://www.polindra.ac.id">Polindra</a>
+	<a href="http://www.elearning.ti.ac.id" target="kuning"> elearning TI</a>
+	<a href="http://www.ti.polindra.ac.id" class="kamu" target="merah">TI Polindra</a>
+</body>
+</html>
